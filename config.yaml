@@ -1,0 +1,15 @@
+tarfile: /tmp/export.tar.gz
+out_dir: /tmp/
+privkey_path: /Users/mememe/.ssh/id_rsa
+pubkey_path: /Users/mememe/.ssh/id_rsa.pub
+username: git
+repos:
+  - name: sensor_feed
+    branch: master
+    url: git@github.com:sitch-io/sensor_feed.git
+  - name: sensor
+    branch: master
+    url: git@github.com:sitch-io/sensor.git
+  - name: demo
+    branch: master
+    url: git@github.com:sitch-io/demo.git
